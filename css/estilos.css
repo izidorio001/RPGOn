@@ -79,3 +79,8 @@ header {
   text-align: center;
   font-size: 2em;
 }
+
+.img-portfolio {
+  height: 180px;
+  width: 180px;
+}
