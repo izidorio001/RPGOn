@@ -82,12 +82,13 @@ header {
 }
 
 .img-portfolio {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
+  height:160px;
+  width: 160px;
+
   background-color: white;
-  object-fit: cover;
+
   object-position: center;
+  object-fit: cover;
   border: 2px solid black;
 
   -moz-transition: all 0.3s;
@@ -111,9 +112,9 @@ footer{
 
 .eventosqjp .grid{
   display: grid;
-  gap: 2em;
+  gap: 0.1;
   grid-template-columns: 180px;
-  height: calc(100vh - 200px);
+  height: calc(100vh - 80px);
   overflow: hidden;
   justify-content: center;
 }
@@ -142,11 +143,11 @@ figure{
 }
 
 figcaption{
-  display: block;
+  
   font-size: 1.5em;
   color: black;
   padding: 1px;
-  text-align: center;
+  text-align: justify;
 }
 
 .eventosqjp .grid{
